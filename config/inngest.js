@@ -3,7 +3,7 @@ import dbConnect from "./db";
 import User from "@/Models/User";
 
 // Create a client to send and receive events
-export const inngest = new Inngest({ id: "commerce-com" });
+export const inngest = new Inngest({ id: "ecommercecom" });
 
 // ingest function to save user data to database
 export const syncUserCreation = inngest.createFunction(
